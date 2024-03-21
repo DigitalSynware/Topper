@@ -16,7 +16,7 @@ public class NumberFormatter {
     private final Map<String, BiFunction<UUID, Number, String>> replacers = new HashMap<>();
     private String nullDisplayUuid = "---";
     private String nullDisplayName = "---";
-    private String nullDisplayValue = "---";
+    private String nullDisplayValue = "0";
     private String displayName = "";
     private String prefix = "";
     private String suffix = "";
